@@ -13,9 +13,11 @@ A dockerized wordpress setup with an NGINX reverse-proxy frontend doing the SSL 
 You'll need to do a few things to get this up & running on your local environment.
 
 1. create your certs by going into 'certs/' and running `certs.sh`.
-2. copy the `certs/whateveryoursiteis.cert` and `certs/whateveryoursiteis.key` to 'nginx/ssl/'.
-3. run `docker-compose up` if you want to see all the start-up logs
-4. or `docker-compose up -d` if you want to background.
+2. copy the `certs/my_wpress_site.cert` and `certs/my_wpress_site.key` to 'nginx/ssl/'.
+3. edit nginx/conf.d/default.conf and chamge server_name to the desired domain.
+4. edit docker-compose.yml and change the container_name. Swap `-prova` with your project identifier. 
+5. run `docker-compose up` if you want to see all the start-up logs
+6. or `docker-compose up -d` if you want to background.
 
 ## Setup Wordpress
 As this was a local setup for me, the server_name of 'www.mywordpress.local' was just an entry in my local /etc/hosts.

@@ -10,7 +10,7 @@ services:
        MYSQL_DATABASE: rds_mysql
        MYSQL_USER: wpress
        MYSQL_PASSWORD: wpress_247x
-     container_name: wp_mysql
+     container_name: wp_mysql-prova
 
   wordpress:
     depends_on:
@@ -24,14 +24,14 @@ services:
       WORDPRESS_DB_USER: wpress
       WORDPRESS_DB_PASSWORD: wpress_247x
       WORDPRESS_DB_NAME: rds_mysql
-    container_name: wp_site
+    container_name: wp_site-prova
 
   nginx:
     image: nginx:latest
     volumes:
       - "./nginx/conf.d/default.conf:/etc/nginx/conf.d/default.conf"
-      - "./nginx/ssl/whateveryoursiteis.cert:/etc/nginx/my_wpress_site.cert"
-      - "./nginx/ssl/whateveryoursiteis.key:/etc/nginx/my_wpress_site.key"
+      - "./nginx/ssl/my_wpress_site.cert:/etc/nginx/my_wpress_site.cert"
+      - "./nginx/ssl/my_wpress_site.key:/etc/nginx/my_wpress_site.key"
       - "./nginx/log:/var/log/nginx"
     ports:
       - "80:80"
@@ -41,7 +41,7 @@ services:
     links:
       - wordpress
     restart: unless-stopped
-    container_name: wp_nginx
+    container_name: wp_nginx-prova
 
 volumes:
   mysql:
