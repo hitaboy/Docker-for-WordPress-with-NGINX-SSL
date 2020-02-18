@@ -1,0 +1,30 @@
+2020/02/17 23:20:32 [warn] 1#1: the "ssl" directive is deprecated, use the "listen ... ssl" directive instead in /etc/nginx/conf.d/default.conf:22
+2020/02/17 23:20:32 [emerg] 1#1: cannot load certificate "/etc/nginx/my_wpress_site.cert": BIO_new_file() failed (SSL: error:02001002:system library:fopen:No such file or directory:fopen('/etc/nginx/my_wpress_site.cert','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2020/02/17 23:20:32 [warn] 1#1: the "ssl" directive is deprecated, use the "listen ... ssl" directive instead in /etc/nginx/conf.d/default.conf:22
+2020/02/17 23:20:32 [emerg] 1#1: cannot load certificate "/etc/nginx/my_wpress_site.cert": BIO_new_file() failed (SSL: error:02001002:system library:fopen:No such file or directory:fopen('/etc/nginx/my_wpress_site.cert','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2020/02/17 23:20:33 [warn] 1#1: the "ssl" directive is deprecated, use the "listen ... ssl" directive instead in /etc/nginx/conf.d/default.conf:22
+2020/02/17 23:20:33 [emerg] 1#1: cannot load certificate "/etc/nginx/my_wpress_site.cert": BIO_new_file() failed (SSL: error:02001002:system library:fopen:No such file or directory:fopen('/etc/nginx/my_wpress_site.cert','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2020/02/17 23:20:34 [warn] 1#1: the "ssl" directive is deprecated, use the "listen ... ssl" directive instead in /etc/nginx/conf.d/default.conf:22
+2020/02/17 23:20:34 [emerg] 1#1: cannot load certificate "/etc/nginx/my_wpress_site.cert": BIO_new_file() failed (SSL: error:02001002:system library:fopen:No such file or directory:fopen('/etc/nginx/my_wpress_site.cert','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2020/02/17 23:20:35 [warn] 1#1: the "ssl" directive is deprecated, use the "listen ... ssl" directive instead in /etc/nginx/conf.d/default.conf:22
+2020/02/17 23:20:35 [emerg] 1#1: cannot load certificate "/etc/nginx/my_wpress_site.cert": BIO_new_file() failed (SSL: error:02001002:system library:fopen:No such file or directory:fopen('/etc/nginx/my_wpress_site.cert','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2020/02/17 23:20:37 [warn] 1#1: the "ssl" directive is deprecated, use the "listen ... ssl" directive instead in /etc/nginx/conf.d/default.conf:22
+2020/02/17 23:20:37 [emerg] 1#1: cannot load certificate "/etc/nginx/my_wpress_site.cert": BIO_new_file() failed (SSL: error:02001002:system library:fopen:No such file or directory:fopen('/etc/nginx/my_wpress_site.cert','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2020/02/17 23:20:41 [warn] 1#1: the "ssl" directive is deprecated, use the "listen ... ssl" directive instead in /etc/nginx/conf.d/default.conf:22
+2020/02/17 23:20:41 [emerg] 1#1: cannot load certificate "/etc/nginx/my_wpress_site.cert": BIO_new_file() failed (SSL: error:02001002:system library:fopen:No such file or directory:fopen('/etc/nginx/my_wpress_site.cert','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2020/02/17 23:20:48 [warn] 1#1: the "ssl" directive is deprecated, use the "listen ... ssl" directive instead in /etc/nginx/conf.d/default.conf:22
+2020/02/17 23:20:48 [emerg] 1#1: cannot load certificate "/etc/nginx/my_wpress_site.cert": BIO_new_file() failed (SSL: error:02001002:system library:fopen:No such file or directory:fopen('/etc/nginx/my_wpress_site.cert','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2020/02/17 23:21:01 [warn] 1#1: the "ssl" directive is deprecated, use the "listen ... ssl" directive instead in /etc/nginx/conf.d/default.conf:22
+2020/02/17 23:21:01 [emerg] 1#1: cannot load certificate "/etc/nginx/my_wpress_site.cert": BIO_new_file() failed (SSL: error:02001002:system library:fopen:No such file or directory:fopen('/etc/nginx/my_wpress_site.cert','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2020/02/17 23:21:27 [warn] 1#1: the "ssl" directive is deprecated, use the "listen ... ssl" directive instead in /etc/nginx/conf.d/default.conf:22
+2020/02/17 23:21:27 [emerg] 1#1: cannot load certificate "/etc/nginx/my_wpress_site.cert": BIO_new_file() failed (SSL: error:02001002:system library:fopen:No such file or directory:fopen('/etc/nginx/my_wpress_site.cert','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2020/02/17 23:22:19 [warn] 1#1: the "ssl" directive is deprecated, use the "listen ... ssl" directive instead in /etc/nginx/conf.d/default.conf:22
+2020/02/17 23:22:19 [emerg] 1#1: cannot load certificate "/etc/nginx/my_wpress_site.cert": BIO_new_file() failed (SSL: error:02001002:system library:fopen:No such file or directory:fopen('/etc/nginx/my_wpress_site.cert','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2020/02/17 23:23:19 [warn] 1#1: the "ssl" directive is deprecated, use the "listen ... ssl" directive instead in /etc/nginx/conf.d/default.conf:22
+2020/02/17 23:23:19 [emerg] 1#1: cannot load certificate "/etc/nginx/my_wpress_site.cert": BIO_new_file() failed (SSL: error:02001002:system library:fopen:No such file or directory:fopen('/etc/nginx/my_wpress_site.cert','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2020/02/17 23:42:50 [warn] 1#1: the "ssl" directive is deprecated, use the "listen ... ssl" directive instead in /etc/nginx/conf.d/default.conf:22
+2020/02/17 23:43:49 [warn] 1#1: the "ssl" directive is deprecated, use the "listen ... ssl" directive instead in /etc/nginx/conf.d/default.conf:22
+2020/02/17 23:47:54 [warn] 1#1: the "ssl" directive is deprecated, use the "listen ... ssl" directive instead in /etc/nginx/conf.d/default.conf:22
+2020/02/18 00:06:03 [warn] 1#1: the "ssl" directive is deprecated, use the "listen ... ssl" directive instead in /etc/nginx/conf.d/default.conf:22
+2020/02/18 00:08:53 [warn] 1#1: the "ssl" directive is deprecated, use the "listen ... ssl" directive instead in /etc/nginx/conf.d/default.conf:22
+2020/02/18 00:13:32 [warn] 1#1: the "ssl" directive is deprecated, use the "listen ... ssl" directive instead in /etc/nginx/conf.d/default.conf:22
